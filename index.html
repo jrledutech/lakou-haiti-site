@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Lakou Haiti — une plateforme intégrée reliant communautés, services, production, compétences et opportunités économiques."
+    >
+
+    <meta name="theme-color" content="#0b4b36">
+
+    <title>Lakou Haiti — Community to National Prosperity</title>
+
+
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <!-- Accessibility -->
+    <a class="skip-link" href="#main">
+        Aller au contenu
+    </a>
+
+
+    <!-- =====================================================
+         HEADER / NAVIGATION
+    ====================================================== -->
+
+    <header class="site-header" id="top">
+
+        <div class="container nav-wrap">
+
+            <!-- Logo -->
+            <a
+                class="brand"
+                href="#home"
+                aria-label="Lakou Haiti accueil"
+            >
+                <img class="brand-mark" src="assets/brand.svg" alt="" width="48" height="48">
+
+                <span>
+                    <strong>LAKOU HAITI</strong>
+
+                    <small>
+                        Community to National Prosperity
+                    </small>
+                </span>
+            </a>
+
+
+            <!-- Mobile Menu Button -->
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-expanded="false"
+                aria-controls="mainNav"
+                aria-label="Ouvrir le menu"
+                type="button"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+            <!-- Navigation -->
+            <nav
+                class="main-nav"
+                id="mainNav"
+                aria-label="Navigation principale"
+            >
+<div class="drawer-heading"><img src="assets/brand.svg" alt="" width="38" height="38"><strong>LAKOU HAITI</strong><button id="menuClose" type="button" aria-label="Fermer le menu">&#215;</button></div>
+
+                <a href="#home" data-i18n="navHome">
+                    Accueil
+                </a>
+
+                <a href="#about" data-i18n="navAbout">
+                    À propos
+                </a>
+
+                <div class="nav-programs"><a href="#programs" data-i18n="navPrograms">
+                    Programmes
+                </a><button id="programMenuToggle" type="button" aria-expanded="false" aria-controls="programMenu" aria-label="Programmes">&#8964;</button><div id="programMenu" hidden></div></div>
+
+                <a href="#model" data-i18n="navModel">
+                    Modèle intégré
+                </a>
+
+                <a href="#prototype" data-i18n="navPrototype">
+                    Prototype
+                </a>
+
+                <a href="#partners" data-i18n="navPartners">
+                    Partenaires
+                </a>
+
+                <a href="#contact" data-i18n="navContact">
+                    Contact
+                </a>
+
+<div class="drawer-actions"><div class="language-buttons" aria-label="Langue"><button type="button" data-language="fr">FR</button><button type="button" data-language="en">EN</button><button type="button" data-language="ht">KRE</button></div><a class="btn btn-gold" href="#partners" data-i18n="join">S&#8217;impliquer</a></div>
+            </nav>
+
+
+            <!-- Language + CTA -->
+            <div class="nav-actions">
+
+                <label class="sr-only" for="language">
+                    Langue
+                </label>
+
+                <select
+                    id="language"
+                    aria-label="Choisir la langue"
+                >
+                    <option value="fr">FR</option>
+                    <option value="ht">KRE</option>
+                    <option value="en">EN</option>
+                </select>
+
+                <a
+                    class="btn btn-gold btn-small"
+                    href="#partners"
+                    data-i18n="join"
+                >
+                    S’impliquer
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+<button class="nav-backdrop" id="navBackdrop" type="button" tabindex="-1" aria-label="Fermer le menu" hidden></button>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main id="main">
+
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+
+                <div class="hero-copy reveal">
+
+                    <p
+                        class="eyebrow"
+                        data-i18n="eyebrow"
+                    >
+                        Développement intégré • Communautés • Opportunités
+                    </p>
+
+                    <h1 data-i18n="heroTitle">
+                        Lakou Haiti Solution
+                    </h1>
+
+                    <p
+                        class="hero-lead"
+                        data-i18n="heroLead"
+                    >
+                        Une plateforme intégrée pour un Haïti
+                        durable, inclusif et prospère.
+                    </p>
+
+                    <p
+                        class="hero-text"
+                        data-i18n="heroText"
+                    >
+                        Relier les communautés, les compétences,
+                        les services, la production et les marchés
+                        afin de créer des opportunités durables.
+                    </p>
+
+
+                    <div class="hero-actions">
+
+                        <a
+                            class="btn btn-gold"
+                            href="#programs"
+                            data-i18n="discover"
+                        >
+                            Découvrir nos programmes →
+                        </a>
+
+                        <a
+                            class="btn btn-outline"
+                            href="#model"
+                            data-i18n="seeModel"
+                        >
+                            Voir le modèle intégré
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Motto -->
+                <div
+                    class="hero-quote reveal"
+                    aria-label="Devise"
+                >
+                    <span>
+                        “Tout Moun
+                    </span>
+
+                    <strong>
+                        Ap Jwenn.”
+                    </strong>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             NETWORK NUMBERS
+        ================================================== -->
+
+        <section
+            class="network"
+            aria-label="Réseau territorial"
+        >
+
+            <div class="container network-grid">
+
+
+                <article>
+
+                    <span aria-hidden="true"><svg class="sector-icon"><use href="assets/icons.svg#agriculture"></use></svg></span>
+
+                    <div>
+                        <strong>46</strong>
+
+                        <b>DDH</b>
+
+                        <small>
+                            District Development Hubs
+                        </small>
+                    </div>
+
+                </article>
+
+
+                <article>
+
+                    <span aria-hidden="true"><svg class="sector-icon"><use href="assets/icons.svg#people"></use></svg></span>
+
+                    <div>
+                        <strong>145</strong>
+
+                        <b>CCC</b>
+
+                        <small>
+                            Communal Community Centers
+                        </small>
+                    </div>
+
+                </article>
+
+
+                <article>
+
+                    <span aria-hidden="true"><svg class="sector-icon"><use href="assets/icons.svg#network"></use></svg></span>
+
+                    <div>
+                        <strong>572</strong>
+
+                        <b>SCCC</b>
+
+                        <small>
+                            Section Communal Community Centers
+                        </small>
+                    </div>
+
+                </article>
+
+
+                <article>
+
+                    <span aria-hidden="true"><svg class="sector-icon"><use href="assets/icons.svg#people"></use></svg></span>
+
+                    <div>
+
+                        <strong data-i18n="strongCommunities">
+                            Des communautés plus fortes
+                        </strong>
+
+                        <small data-i18n="prosperousHaiti">
+                            Un Haïti prospère
+                        </small>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             PROBLEM -> SOLUTION
+        ================================================== -->
+
+        <section class="ps-section" aria-labelledby="psTitle">
+
+            <div class="container">
+
+                <h2 class="sr-only" id="psTitle" data-i18n="psEyebrow">Du constat à la réponse</h2>
+
+                <div class="ps-grid">
+
+                    <article class="ps-card ps-problem reveal">
+                        <p class="ps-step" aria-hidden="true">01</p>
+                        <h3>
+                            <button type="button" data-open-problem aria-describedby="problemLine"><span data-i18n="problemTitle">Le problème d’Haïti</span></button>
+                            <span class="ps-go" aria-hidden="true">→</span>
+                        </h3>
+                        <p id="problemLine" data-i18n="problemLine">Pauvreté et inégalités : un cercle vicieux de défis interconnectés.</p>
+                    </article>
+
+                    <span class="ps-arrow" aria-hidden="true">→</span>
+
+                    <article class="ps-card ps-solution reveal">
+                        <p class="ps-step" aria-hidden="true">02</p>
+                        <h3>
+                            <button type="button" data-open-solution aria-describedby="solutionLine"><span data-i18n="solutionTitle">La solution Lakou Haiti</span></button>
+                            <span class="ps-go" aria-hidden="true">→</span>
+                        </h3>
+                        <p id="solutionLine" data-i18n="solutionLine">Une plateforme intégrée pour un Haïti durable, inclusif et prospère.</p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             PROGRAMS
+        ================================================== -->
+
+        <section
+            class="section programs-section"
+            id="programs"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading reveal">
+
+                    <div>
+
+                        <p
+                            class="eyebrow dark"
+                            data-i18n="programEyebrow"
+                        >
+                            Une approche multisectorielle
+                        </p>
+
+                        <h2 data-i18n="programTitle">
+                            Nos Programmes Principaux
+                        </h2>
+
+                        <p data-i18n="programIntro">
+                            Des composantes interconnectées pour
+                            renforcer les communautés et soutenir
+                            une économie productive.
+                        </p>
+
+                    </div>
+
+
+                    <button
+                        class="text-button"
+                        id="expandPrograms"
+                        type="button"
+                        data-i18n="viewAll"
+                    >
+                        Voir tous les programmes →
+                    </button>
+
+                </div>
+
+
+                <!--
+                    JavaScript ap mete program cards yo isit.
+                -->
+                <div
+                    class="program-grid"
+                    id="programGrid"
+                ></div>
+
+
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             EXPLORE: About, Model, Prototype, Realizations, Partners
+             Short summaries; details open in the detail panel.
+        ================================================== -->
+
+        <section class="section explore-section" aria-labelledby="exploreTitle">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <div>
+                        <h2 id="exploreTitle" data-i18n="exploreTitle">Découvrir Lakou Haiti</h2>
+                    </div>
+                </div>
+
+                <div class="explore-grid">
+
+                    <article class="explore-card reveal" id="about">
+                        <span class="explore-thumb thumb-about" aria-hidden="true"></span>
+                        <div>
+                            <h3><button type="button" data-open-about aria-describedby="aboutLine"><span data-i18n="navAbout">À propos</span></button></h3>
+                            <p id="aboutLine" data-i18n="cardAboutLine">Une plateforme nationale de développement intégrée et décentralisée.</p>
+                        </div>
+                        <span class="explore-go" aria-hidden="true">→</span>
+                    </article>
+
+                    <article class="explore-card reveal" id="model">
+                        <span class="explore-thumb thumb-model" aria-hidden="true"></span>
+                        <div>
+                            <h3><button type="button" data-open-model aria-describedby="modelLine"><span data-i18n="navModel">Modèle intégré</span></button></h3>
+                            <p id="modelLine" data-i18n="cardModelLine">Treize composantes conçues pour se renforcer mutuellement.</p>
+                        </div>
+                        <span class="explore-go" aria-hidden="true">→</span>
+                    </article>
+
+                    <article class="explore-card reveal" id="prototype">
+                        <span class="explore-thumb thumb-prototype" aria-hidden="true"></span>
+                        <div>
+                            <h3><button type="button" data-open-prototype aria-describedby="prototypeLine"><span data-i18n="cardPrototypeTitle">Prototype Colora</span></button></h3>
+                            <p id="prototypeLine" data-i18n="cardPrototypeLine">Le site pilote de Colora, Belladère : carte, relevés et projets proposés.</p>
+                        </div>
+                        <span class="explore-go" aria-hidden="true">→</span>
+                    </article>
+
+                    <article class="explore-card reveal" id="realizations">
+                        <span class="explore-thumb thumb-realizations" aria-hidden="true"></span>
+                        <div>
+                            <h3><button type="button" data-open-realizations aria-describedby="realizationsLine"><span data-i18n="realTitle">Réalisations à Lakou Colora</span></button></h3>
+                            <p id="realizationsLine" data-i18n="cardRealLine">Photos documentées du site : activités historiques et installations existantes.</p>
+                        </div>
+                        <span class="explore-go" aria-hidden="true">→</span>
+                    </article>
+
+                    <article class="explore-card reveal" id="partners">
+                        <span class="explore-thumb thumb-partners" aria-hidden="true"><svg class="sector-icon"><use href="assets/icons.svg#people"></use></svg></span>
+                        <div>
+                            <h3><button type="button" data-open-partners aria-describedby="partnersLine"><span data-i18n="navPartners">Partenaires</span></button></h3>
+                            <p id="partnersLine" data-i18n="cardPartnersLine">Communautés, institutions, secteur privé, diaspora et société civile.</p>
+                        </div>
+                        <span class="explore-go" aria-hidden="true">→</span>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+<section
+            class="section contact-section"
+            id="contact"
+        >
+
+            <details class="container contact-disclosure"><summary data-i18n="navContact">Contact</summary><div class="contact-card">
+
+
+                <div>
+
+                    <p
+                        class="eyebrow"
+                        data-i18n="contactEyebrow"
+                    >
+                        Contact & partenariat
+                    </p>
+
+                    <h2 data-i18n="contactTitle">
+                        Vous souhaitez en savoir plus ?
+                    </h2>
+
+                    <p data-i18n="contactText">
+                        Utilisez ce formulaire pour préparer une
+                        demande de contact. Aucune information sensible
+                        du projet n’est publiée ici.
+                    </p>
+
+                </div>
+
+
+                <form id="contactForm">
+
+
+                    <label>
+
+                        <span data-i18n="name">
+                            Nom
+                        </span>
+
+                        <input
+                            required
+                            name="name"
+                            autocomplete="name"
+                        >
+
+                    </label>
+
+
+                    <label>
+
+                        <span data-i18n="email">
+                            E-mail
+                        </span>
+
+                        <input
+                            required
+                            type="email"
+                            name="email"
+                            autocomplete="email"
+                        >
+
+                    </label>
+
+
+                    <label class="full">
+
+                        <span data-i18n="message">
+                            Message
+                        </span>
+
+                        <textarea
+                            required
+                            name="message"
+                            rows="4"
+                        ></textarea>
+
+                    </label>
+
+
+                    <button
+                        class="btn btn-gold"
+                        type="submit"
+                        data-i18n="send"
+                    >
+                        Préparer le message
+                    </button>
+
+
+                    <small
+                        id="formStatus"
+                        aria-live="polite"
+                    ></small>
+
+
+                </form>
+
+
+            </div></details>
+
+        </section>
+
+
+        <p class="site-note" data-i18n="privacyNote">
+            Ce site présente uniquement une synthèse publique.
+            Les annexes techniques, données opérationnelles et
+            informations sensibles restent dans la documentation
+            interne.
+        </p>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        <div class="container footer-grid">
+
+
+            <div class="brand footer-brand">
+
+                <img class="brand-mark" src="assets/brand.svg" alt="" width="48" height="48">
+
+                <span>
+
+                    <strong>
+                        LAKOU HAITI
+                    </strong>
+
+                    <small>
+                        Community to National Prosperity
+                    </small>
+
+                </span>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#about" data-i18n="navAbout">
+                    À propos
+                </a>
+
+                <a href="#programs" data-i18n="navPrograms">
+                    Programmes
+                </a>
+
+                <a href="#model" data-i18n="navModel">
+                    Modèle intégré
+                </a>
+
+                <a href="#partners" data-i18n="navPartners">
+                    Partenaires
+                </a>
+
+                <a href="#contact" data-i18n="navContact">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <p class="footer-motto">
+                “Tout Moun Ap Jwenn.”
+            </p>
+
+
+        </div>
+
+    </footer>
+
+
+    <!-- =====================================================
+         PROGRAM DETAIL MODAL
+    ====================================================== -->
+
+    <div
+        class="modal"
+        id="detailModal"
+        aria-hidden="true"
+    >
+
+        <div
+            class="modal-backdrop"
+            data-close-modal
+        ></div>
+
+
+        <section
+            class="modal-panel"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modalTitle"
+        >
+
+
+            <button
+                class="modal-close"
+                type="button"
+                data-close-modal
+                aria-label="Fermer"
+            >
+                ×
+            </button>
+
+
+            <div
+                class="modal-image"
+                id="modalImage"
+            ></div>
+
+
+            <div class="modal-body">
+
+
+                <div class="modal-title-row">
+
+                    <span id="modalIcon"></span>
+
+                    <h2 id="modalTitle"></h2>
+
+                </div>
+
+
+                <!-- Modal Tabs -->
+                <div
+                    class="tabs"
+                    role="tablist"
+                >
+
+                    <button
+                        class="tab active"
+                        data-tab="overview"
+                        type="button"
+                        data-i18n="overview"
+                    >
+                        Aperçu
+                    </button>
+
+
+                    <button
+                        class="tab"
+                        data-tab="objectives"
+                        type="button"
+                        data-i18n="objectives"
+                    >
+                        Objectifs
+                    </button>
+
+
+                    <button
+                        class="tab"
+                        data-tab="components"
+                        type="button"
+                        data-i18n="components"
+                    >
+                        Composantes
+                    </button>
+
+
+                    <button
+                        class="tab"
+                        data-tab="impacts"
+                        type="button"
+                        data-i18n="impacts"
+                    >
+                        Impacts
+                    </button>
+
+
+                </div>
+
+
+                <div
+                    id="modalContent"
+                    class="modal-content" role="tabpanel" tabindex="0"
+                    role="tabpanel"
+                    tabindex="0"
+                ></div>
+
+
+                <div class="modal-note">
+
+                    <span data-i18n="modalPrivacy">
+                        Les détails techniques, financiers,
+                        opérationnels et autres informations sensibles
+                        restent dans la documentation interne.
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+    </div>
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
