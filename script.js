@@ -791,7 +791,7 @@ const translations = {
             "Lakou Haiti Solution",
 
         heroLead:
-            "Une plateforme intégrée pour un Haïti durable, inclusif et prospère.",
+            "Une plateforme intégrée pour une Haïti durable, inclusive et prospère.",
 
         heroText:
             "Relier les communautés, les compétences, les services, la production et les marchés afin de créer des opportunités durables.",
@@ -3318,3 +3318,13 @@ refreshNavigation();
 resizeOrbit();
 
 function programSymbol(id) { return `<svg class="sector-icon" aria-hidden="true"><use href="assets/icons.svg#${id}"></use></svg>`; }
+
+/* Hero brand: while the hero logo is visible, hide the header logo so branding is not duplicated */
+(() => {
+    const heroBrand = document.querySelector(".hero-brand");
+    const header = document.querySelector(".site-header");
+    if (!heroBrand || !header || !("IntersectionObserver" in window)) return;
+    new IntersectionObserver(([entry]) => {
+        header.classList.toggle("hero-brand-on-screen", entry.isIntersecting);
+    }, { rootMargin: `-${header.offsetHeight}px 0px 0px 0px` }).observe(heroBrand);
+})();
